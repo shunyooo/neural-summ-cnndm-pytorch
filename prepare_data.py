@@ -242,7 +242,7 @@ if __name__ == "__main__":
 
     data_type = "deepmind"
     # download from finished_files: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
-    raw_path = "/home/pijili/data/summarization-data/SDS/cnndm-pj/"
+    raw_path = "/workspace/pytorch_basic_nmt/data/cnn-daily/cnndm-pj/"
 
     print (data_type, raw_path)
     run(data_type, raw_path)

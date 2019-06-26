@@ -31,6 +31,7 @@ for fname in flist:
     i = summ2i[fname]
     i2model[i] = fname
 
+print(f'i2model:{len(i2model)}, i2summ:{len(i2summ)}')
 assert len(i2model) == len(i2summ)
 
 # write to config file
